@@ -1,0 +1,11 @@
+helm install altusgroup pingidentity/ping-devops -f altusgroup.yaml
+
+helm upgrade --install altusgroup pingidentity/ping-devops -f altusgroup.yaml
+
+helm uninstall altusgroup
+
+https://pingfederate-admin-altusgroup.ping-devops.com:443/pingfederate/app?service=finishsso
+
+git add .
+git commit -m "Add new files"
+git push
