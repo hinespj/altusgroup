@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:map name="evaluation"/>
+    <con:map name="http://www.okta.com/exkoc83r6vqLDp9W10x7"/>
+    <con:map name="http://www.okta.com/exkqk7log6olMhpYO0x7"/>
+</con:config>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pingOneConnectionsConfig>
+    <connections>
+        <active>true</active>
+        <creationDate>2021-02-01T00:51:05.286Z</creationDate>
+        <credentialId>d1d98f02-e377-44cb-8bda-966e5455033c</credentialId>
+        <encryptedCredential>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiVE9hWkkxZGNJbiIsInZlcnNpb24iOiIxMC4yLjEuMSJ9..EPWF0XdZgMN9QENteboXyA.b7zdymqe59xZjH7CBxh_oda3ka7_B94DtWvT5CtTf6EmEOF0ziGKrAWJ2yntTMF8bc23WhgIPirFnTx-36KXNu3RI4tiiNWeb8SClONewCIPitWW3xc-UrOJu7-AwUYv3u2S5oinRy8LPO4xWGbS85004YKjq3-1yvDLyjojfGg_gVI9QkZhoG_26FheH1p-Gm0bYy-VNnwj63pfvvSru1Xh-Um5OpRg56i2gP6DEa7sHjpYJFg3UddFXiW-rRszPyoHsB1f_t1wot40QZTSHPMDwXu5dSkl-Xpj9ZbpKYdfadJ7XLTYkQYuu13EcNEiI9vakTN5wnwpsSgZUVC6t39me1TVznC30eVIxvQs0wVylcV-hkFlMtWVAEtSi-xd47C8sXvD4dIl5g-J8NOyy6MeCumKMtlECnr_1cJEeS5ikGD8sOscyySXgF__2YWmmWEfxWgsvTkZFGm3CdFN8pVo5STvkqyi5gSjxMt8rFgy4mWMW46FZ6XKWWHqGb8uZKrJb6pVmrGoxooHws8pUXPWFI834VAAOl08Qy63rfml76bT1r4eqMyg7dqybrgyaVCtcpLsdo76Ryw6pKIzG023qsHjCmiS4Qe8iHoK85morEumntQ4fNNIYVeTigyC7OMUMI-73mJ_NfQK1XtkejBXSOjuEbaDEJNRwIVexyJ5HVIZW4C8H223sZa-Vj4zboQXdl3i5OlxQto9CtgyNt-KM5DCham-vcOrJkQMQ-naBqKAejd5kV63aacercb62k2iEN8lyPWS7rp1qxZmsfsIaKccl_LNNjPybh0u6XI8afLGWMdKawtsN5hU2oIwzKSOT7-DSS1rwpIKlhN3z780OLJWIe8-0hu4YiKFH37vElN2gkdRrIABQ9lXog6JBZ0AXhbOxPIWsmB4iqDEDAA9br61Cp_PUAqCVERFcqpzmiANuTdZDd8KE0oUKAMUx-_k2SS-U5tWIxQHKwz9yeFZ3AUTLyy5k6gFdLDT_ZE0cHSnVrwYDcxWT7CgvF0FzVUPwTZnAr3GoK3y_I1MvucxJKN6y_hVpB5djmS9UMzcAgvEKoGYDumfmMFvLNKzXsHZAsrsvF-qQLTmIlNnkaWKWTvHhICg-UR6Cbd6wQe_FmlsfTRrzmcHWxL_bc-WK3_woE94EDuFXESZ_7d0XGrxlENUW4vRmykAGOiMzn-c81KztXxk8fWP4VVdDeh89O2Tll8gpLLl27Sr2aevlXjFoOtzxLj11Hurk58RvimNQk6W2BLHN7u0yD1K8mI3rzU93chBZFKU5iMj1mang0_NAqaAT5AhQHZWehi_UQ2W9TeO1exWptzZSOowQl1MRqakAOv5IseReZcgWNNnTwiBkVp8zyABFGB6-9ttVJP_qFa6mESQlICrgljQygiabK45pKR3w0bu9Ihzcx1k9wYvkteg_wGepLRRbgHj1z_dTzL3L6UkPWTIxSzTeBBxVlqKIwJNhbjBGzYKDso84gJ-Kxua7_ZpqK4M02opykAziX9Nxz-iiD7ycYrrn4WknOiGkRWUdkXgi9MU7kKVhI534Pn2-beXwuZaJdmeb1bnhAyv9f2ypRkZH-e2ulTRjzUC4ylB10tLy44DAwq1JQ.t3AbqkcfdHqi87udOtyNkA</encryptedCredential>
+        <environmentId>0ff92dd4-be6c-4390-8cd1-4f01ceb09fc4</environmentId>
+        <id>Qf4wciM433jjeIm3jj3T8n</id>
+        <name>trial_comcast_1379833030</name>
+        <organizationName>trial_comcast_1379833030</organizationName>
+        <pingOneAuthenticationApiEndpoint>https://auth.pingone.com</pingOneAuthenticationApiEndpoint>
+        <pingOneConnectionId>acca21ec-7d6b-4923-842a-eb1e0ebe2e9d</pingOneConnectionId>
+        <pingOneManagementApiEndpoint>https://api.pingone.com</pingOneManagementApiEndpoint>
+        <region>North America</region>
+    </connections>
+</pingOneConnectionsConfig>

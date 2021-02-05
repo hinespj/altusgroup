@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mu:metadataUrls xmlns:mu="http://pingidentity.com/2015/01/metadata-url">
+    <mu:metadataUrlCertType>
+        <mu:id>wQTKZYUxzBQe2y2o0F0KAtLgW</mu:id>
+        <mu:name>OktaTestIDP</mu:name>
+        <mu:metadataUrl>https://aztest2.okta.com/app/exkqk7log6olMhpYO0x7/sso/saml/metadata</mu:metadataUrl>
+        <mu:validateSignature>false</mu:validateSignature>
+    </mu:metadataUrlCertType>
+</mu:metadataUrls>
