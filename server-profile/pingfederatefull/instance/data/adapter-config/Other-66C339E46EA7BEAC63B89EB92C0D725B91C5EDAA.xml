@@ -3,7 +3,7 @@
     <urn:Fields>
         <urn:Field name="Environment ID">0ff92dd4-be6c-4390-8cd1-4f01ceb09fc4</urn:Field>
         <urn:Field name="Client ID">836a8d16-1d10-463b-b962-1f469e4ef8b6</urn:Field>
-        <urn:Field name="Client Secret">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiVE9hWkkxZGNJbiIsInZlcnNpb24iOiIxMC4yLjEuMSJ9..U0MNVz0o9Yir3ctsPbXomA.6EYddIA06vwKxzes395Tm3SxFORPKinS9UeuqXAEWSljZRVsXwxuUuVddxLW5uC2on6BHvaIjwxu5fG3o8uqAb1tyWlG3o3nA9xlVDi2zx0.DaIl43Qf4zqikpu2WMQAWQ</urn:Field>
+        <urn:Field name="Client Secret">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiVE9hWkkxZGNJbiIsInZlcnNpb24iOiIxMC4yLjEuMSJ9..inBr_6FMO1Z7h7hHUyGVjA.xFW4K36n6uBGfVRV1eUNW3zc8yqaNuxNxtzLCA-epGHXl7PJZesuNd03JW2q3MEFIJyam_tIfJ910rOQ-RR57r5u7StJ3BNTevIWRTU0wWk.rQ6sA_BXN4xbcOHh_CErGg</urn:Field>
         <urn:Field name="PingOne API Service">https://api.pingone.com/v1</urn:Field>
         <urn:Field name="PingOne Authorization Service">https://auth.pingone.com</urn:Field>
         <urn:Field name="Read Timeout">10000</urn:Field>

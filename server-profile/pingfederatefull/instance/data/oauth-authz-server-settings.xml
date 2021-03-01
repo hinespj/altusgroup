@@ -10,6 +10,11 @@
         <urn1:AttributeMap Name="OrgName" Type="Text" Value="Ping Identity Corporation" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
     </urn:UserKeyToAccessTokenMapping>
+    <urn:AdapterToUserKeyMapping sourcePluginId="HTMLFormSimplePCV">
+        <urn1:AttributeMap Name="USER_NAME" Type="Adapter" Value="username" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="USER_KEY" Type="Adapter" Value="username" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+    </urn:AdapterToUserKeyMapping>
     <urn:PasswordCredentialValidatorToUserKeyMapping sourcePluginId="UserPass">
         <urn1:AttributeMap Name="USER_KEY" Type="Password Credential Validator" Value="username" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
