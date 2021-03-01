@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="https://anycompanyonline-dev-ed.my.salesforce.com" urn:name="https://anycompanyonline-dev-ed.my.salesforce.com" ID="h-x48v7kUBQGXm5.n4dfqoa8Zla" urn:baseUrl="https://anycompanyonline-dev-ed.my.salesforce.com" urn:LogLevel="STANDARD" urn:isActive="true" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:urn="urn:sourceid.org:saml2:metadata-extension:v2">
+    <md:Extensions>
+        <urn:EntityExtension PFVersion="10.2.1.1" LicenseGroup="">
+            <urn:DigitialSignatureAliases>
+                <urn:ActiveVerificationCertAlias>27mn22vgx9w0x50ngpykpr1dm</urn:ActiveVerificationCertAlias>
+            </urn:DigitialSignatureAliases>
+            <urn:Encryption>
+                <urn:EncryptionPolicy EncryptionAlgorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc" KeyTransportAlgorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p" EncryptAssertion="false" EncryptSubjectNameID="false" SLOEncryptSubjectNameID="false"/>
+                <urn:DecryptionPolicy AssertionEncrypted="false" SubjectNameIDEncrypted="false" AttributeEncrypted="false" SLOSubjectNameIDEncrypted="false"/>
+            </urn:Encryption>
+            <urn:MetadataUrlId>nVD9LzCq8RQuHfNcNJtcH9YQG</urn:MetadataUrlId>
+            <urn:enableAutoMetadataUpdate>true</urn:enableAutoMetadataUpdate>
+            <urn:alwaysSignArtifactResponse>false</urn:alwaysSignArtifactResponse>
+            <urn:AdditionalAllowedEntitiesConfiguration>
+                <urn:AllowAdditionalEntities>false</urn:AllowAdditionalEntities>
+                <urn:AllowAllEntities>false</urn:AllowAllEntities>
+                <urn:AdditionalAllowedEntities/>
+            </urn:AdditionalAllowedEntitiesConfiguration>
+        </urn:EntityExtension>
+    </md:Extensions>
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="false">
+        <md:Extensions>
+            <urn:RoleExtension ArtifactTimeoutSeconds="60" LastModified="2021-02-10T15:10:53.287Z">
+                <urn:IncomingBindings Artifact="false" POST="true" Redirect="true" SOAP="false"/>
+                <urn:EnabledProfiles IDPInitiatedSSO="false" IDPInitiatedSLO="false" SPInitiatedSSO="true" SPInitiatedSLO="false"/>
+                <urn:IDP AssertionsSigned="false" DefaultTargetResource="">
+                    <urn:ConnectionContractMapping C2cContractId="EuSNSHFbbQpVeh1h" C2cContractName="default" RestrictVirtualServerIds="false">
+                        <urn:AttributeMap Name="subject" Type="Assertion" Value="SAML_SUBJECT"/>
+                        <urn:TokenAuthorizationIssuanceCriteria/>
+                    </urn:ConnectionContractMapping>
+                    <urn:AccountLinkingAndMapping Type="mapping" IncludeAdditionalAttributes="false"/>
+                    <urn:ErrPageMsg/>
+                </urn:IDP>
+            </urn:RoleExtension>
+        </md:Extensions>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="/idp/endpoint/HttpPost"/>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="/idp/endpoint/HttpRedirect"/>
+    </md:IDPSSODescriptor>
+    <md:RoleDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" xsi:type="urn:PFAvailableCertsRoleDescriptorType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <urn:availableCert>
+            <urn:Base64EncodedCert>MIIEUjCCAzqgAwIBAgIOAXdyz4e4AAAAABTQLD0wDQYJKoZIhvcNAQELBQAwdDEMMAoGA1UEAwwDSURQMRgwFgYDVQQLDA8wMEQ1dzAwMDAwM1ZmQVMxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMB4XDTIxMDIwNTE1Mjg1OVoXDTIyMDIwNTEyMDAwMFowdDEMMAoGA1UEAwwDSURQMRgwFgYDVQQLDA8wMEQ1dzAwMDAwM1ZmQVMxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkY6RtD0l101RyWgVgHbpeVcOa2lnM82nwWj0UOoDu1ZSlbJMwddd/H2OJar0xOwHXL6FQUB1cc70k2OdfP1VrZzElcJz+2l5fUWOZcjR4/vJ8M5gXTitwtBrMc324aRWrM/jV8XmIgz2brIRRqVIP0AvfLkUKxN92D1IWbUel1bBfgK6i6pymSkjgSBdN4iZHY8YpMLzArd3b1x18T6uD6+ika5YY1YdQG0xjHRxXO03MwgnAXrXcNT0Opz0pty3L0ghhYpThkqjRjuk3G9am1kJmEsELhd202DXWqzW/obhqJfTwoHCzstiss7SvMnssqi5X5waeW+JH+/Ji9PfQQIDAQABo4HhMIHeMB0GA1UdDgQWBBQB1KMVzKoqEdEke0OqVeNPb5KfQjAPBgNVHRMBAf8EBTADAQH/MIGrBgNVHSMEgaMwgaCAFAHUoxXMqioR0SR7Q6pV409vkp9CoXikdjB0MQwwCgYDVQQDDANJRFAxGDAWBgNVBAsMDzAwRDV3MDAwMDAzVmZBUzEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgF3cs+HuAAAAAAU0Cw9MA0GCSqGSIb3DQEBCwUAA4IBAQA9ijvozm10IfQe2wmLEd1NCbtbvdZdYHtqHv7zlSaT0EXCfOsokFILcZSwxGdP7W8Vbt89r0KTXm17X7pg3SvuwznFtM4DWrYTn63A7rBOiAEo8AGiLazAqKChEW7bx2R0Pt8hGiPtxisYZMCdSHoGz7cJxuRE20QB4w3Q8Y6RiCNn4Wwz1CCYdjp2pemqyGNDpJ18e5MmduLDQVvGwcu/6nUFvPwiN9sDGpJ1aomNZ3pT1cB/Ykck9GS5LA3TN8q+uil+oveeTpcAUyG0/HksIdV2nNZ49iZ8o1xExzNYMcTzusHess3QKBXTIUQkJyYOIqpGs2q1x0trme1ua1jq</urn:Base64EncodedCert>
+            <urn:alias>27mn22vgx9w0x50ngpykpr1dm</urn:alias>
+        </urn:availableCert>
+    </md:RoleDescriptor>
+    <md:ContactPerson contactType="administrative"/>
+</md:EntityDescriptor>

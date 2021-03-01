@@ -3,4 +3,5 @@
     <con:map name="evaluation"/>
     <con:map name="http://www.okta.com/exkoc83r6vqLDp9W10x7"/>
     <con:map name="http://www.okta.com/exkqk7log6olMhpYO0x7"/>
+    <con:map name="https://anycompanyonline-dev-ed.my.salesforce.com"/>
 </con:config>

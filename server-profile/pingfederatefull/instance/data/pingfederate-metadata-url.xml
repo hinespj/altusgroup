@@ -6,4 +6,10 @@
         <mu:metadataUrl>https://aztest2.okta.com/app/exkqk7log6olMhpYO0x7/sso/saml/metadata</mu:metadataUrl>
         <mu:validateSignature>false</mu:validateSignature>
     </mu:metadataUrlCertType>
+    <mu:metadataUrlCertType>
+        <mu:id>nVD9LzCq8RQuHfNcNJtcH9YQG</mu:id>
+        <mu:name>Salesforce</mu:name>
+        <mu:metadataUrl>https://anycompanyonline-dev-ed.my.salesforce.com/.well-known/samlidp/Atlusgroup.xml</mu:metadataUrl>
+        <mu:validateSignature>false</mu:validateSignature>
+    </mu:metadataUrlCertType>
 </mu:metadataUrls>

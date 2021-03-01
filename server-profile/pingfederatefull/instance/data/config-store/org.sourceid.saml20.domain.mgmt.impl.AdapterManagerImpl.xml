@@ -2,5 +2,6 @@
 <con:config xmlns:con="http://www.sourceid.org/2004/05/config">
     <con:map name="IdpAuthnAdapterInstances">
         <con:item name="HTMLFormSimplePCV">com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter</con:item>
+        <con:item name="ID1ST">com.pingidentity.adapters.identifierfirst.idp.IdentifierFirstAdapter</con:item>
     </con:map>
 </con:config>

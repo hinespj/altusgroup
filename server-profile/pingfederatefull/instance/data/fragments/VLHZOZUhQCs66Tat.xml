@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PolicyFragment id="VLHZOZUhQCs66Tat" name="OktaIDP" inputContractId="EuSNSHFbbQpVeh1h" outputContractId="EuSNSHFbbQpVeh1h" lastModifiedMillis="1612973203751" xmlns:urn="urn:pingidentity.com:pf:policy:fragment">
+    <urn:policy context="">
+        <urn:AstAction xsi:type="urn:AuthnSourceActionType" xmlns:urn="urn:pingidentity.com:pf:authn-selection" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <urn:AuthnSourceKey type="IDP_CONN">oPaGLSXgOaZ80FBLg.2J.p8TJ9M</urn:AuthnSourceKey>
+            <urn:fallbackToSuccess>true</urn:fallbackToSuccess>
+            <urn:InputIdMapping Type="Inputs" AttributeSourceId="Inputs" Value="subject"/>
+            <urn:userIdAuthenticated>false</urn:userIdAuthenticated>
+        </urn:AstAction>
+        <urn1:AstChild context="Fail" xmlns:urn1="urn:pingidentity.com:pf:authn-selection">
+            <urn:AstAction noOpType="DONE" xsi:type="urn:NoOpActionType" xmlns:urn="urn:pingidentity.com:pf:authn-selection" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </urn1:AstChild>
+        <urn1:AstChild context="Success" xmlns:urn1="urn:pingidentity.com:pf:authn-selection">
+            <urn:AstAction apcId="EuSNSHFbbQpVeh1h" xsi:type="urn:ApcMappingActionType" xmlns:urn="urn:pingidentity.com:pf:authn-selection" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <urn:AttributeMapping>
+                    <urn2:AttributeMap Name="subject" Type="IdP Connection" AttributeSourceId="oPaGLSXgOaZ80FBLg.2J.p8TJ9M" Value="SAML_SUBJECT" xmlns:urn2="urn:sourceid.org:saml2:metadata-extension:v2"/>
+                    <urn2:TokenAuthorizationIssuanceCriteria xmlns:urn2="urn:sourceid.org:saml2:metadata-extension:v2"/>
+                </urn:AttributeMapping>
+            </urn:AstAction>
+        </urn1:AstChild>
+    </urn:policy>
+</urn:PolicyFragment>
