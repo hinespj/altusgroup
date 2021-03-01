@@ -9,3 +9,10 @@ https://pingfederate-admin-altusgroup.ping-devops.com:443/pingfederate/app?servi
 git add .
 git commit -m "Add new files"
 git push
+
+helm install altusgroup2 pingidentity/ping-devops -f altusgroup2.yaml
+
+helm install testhiness pingidentity/ping-devops -f testhines.yaml
+
+
+Kubectl delete pvc/out-dir-{release name}-pingdirectory-0
