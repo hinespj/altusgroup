@@ -59,7 +59,7 @@ pingfederate-admin:
     PF_LOG_LEVEL: DEBUG
     PING_IDENTITY_PASSWORD: 2FederateM0re
     SERVER_PROFILE_URL: https://github.com/hinespj/altusgroup.git
-    SERVER_PROFILE_PATH: server-profile/pingfederate
+    SERVER_PROFILE_PATH: server-profile/pingfederatefull
 
 ############################################################
 # PingFederate Global Config
@@ -104,6 +104,6 @@ pingfederate-engine:
     PF_LOG_LEVEL: DEBUG
     PING_IDENTITY_PASSWORD: 2FederateM0re
     SERVER_PROFILE_URL: https://github.com/hinespj/altusgroup.git
-    SERVER_PROFILE_PATH: server-profile/pingfederate
+    SERVER_PROFILE_PATH: server-profile/pingfederatefull
     PF_ADMIN_PUBLIC_HOSTNAME: pingfederate-admin-altusgroup.ping-devops.com
     
