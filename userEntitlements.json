@@ -1,0 +1,61 @@
+{
+"userEntitlements": [
+{
+"userName": "user1@acme.com",
+"entitlements": [
+{
+"environment": "env_145",
+"clientId": "clientId_1",
+"scope": "power_user",
+"headers": [
+"DSKey: 145"
+]
+},
+{
+"environment": "env_167",
+"clientId": "clientId_1",
+"scope": "admin"
+"headers": [
+"DSKey: 167"
+]
+},
+{
+"environment": "env_134",
+"clientId": "clientId_2"
+"headers": [
+"X-DBKey: 134"
+]
+}
+]
+},
+{
+"userName": "user2@acme.com",
+"entitlements": [
+{
+"environment": "env_145",
+"clientId": "clientId_2",
+"scope": "admin"
+"headers": [
+"DSKey: 145", "X-Scope:
+elevated"
+]
+},
+{
+"environment": "env_167",
+"clientId": "clientId_1"
+"headers": [
+"DSKey: 167"
+]
+},
+{
+"environment": "env_134",
+"clientId": "clientId_2",
+"scope": "power_user"
+"headers": [
+"X-DBKey: 134"
+]
+}
+]
+}
+]
+}

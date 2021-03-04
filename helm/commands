@@ -15,4 +15,11 @@ helm install altusgroup2 pingidentity/ping-devops -f altusgroup2.yaml
 helm install testhiness pingidentity/ping-devops -f testhines.yaml
 
 
-Kubectl delete pvc/out-dir-{release name}-pingdirectory-0
+https://pingaccess-admin-altusgroup2.ping-devops.com
+
+https://altusgroup.ping-eng.com:9000
+
+Kubectl delete pvc/out-dir-troweprice-pingdirectory-0
+
+Kubectl delete pvc/out-dir-troweprice-pingfederate-admin-0
+
